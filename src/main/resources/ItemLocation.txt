@@ -1,0 +1,20 @@
+funnels, 1
+bottles, 2
+beakers, 3
+conical flask, 4
+lab stands, 5
+test tubes, 6
+microscopes, 7
+microscope slits, 8
+burettes, 9 
+pipettes, 10
+lab burners, 11
+acetone, 12
+hydrochloric acid, 13
+sodium hydroxide, 14
+magnesium, 15
+toluene, 16
+rubbing alcohol, 17
+calcium chloride, 18
+chlorofoam, 19
+phenol, 20

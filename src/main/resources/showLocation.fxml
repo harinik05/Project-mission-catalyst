@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="866.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="locationController">
+   <children>
+      <Rectangle fx:id="backgroundRect" arcHeight="5.0" arcWidth="5.0" fill="#30d5c8" height="601.0" stroke="#003366" strokeType="INSIDE" strokeWidth="20.0" width="876.0" />
+      <Label fx:id="itemName" layoutX="559.0" layoutY="251.0" prefHeight="50.0" prefWidth="255.0" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS" size="35.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.4738292011019284" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.24606433510780334" green="0.1738000065088272" blue="0.7900000214576721" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8881579041481018" green="0.09662828594446182" blue="0.6111225485801697" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <AnchorPane fx:id="cabinetPane" layoutX="94.0" layoutY="73.0" prefHeight="468.0" prefWidth="370.0">
+         <children>
+            <Rectangle fx:id="A1" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A2" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A3" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A4" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A5" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A6" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A7" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A8" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A9" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="A10" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B1" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutX="198.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B2" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutX="198.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B3" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutX="198.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B4" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutX="198.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B5" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutX="198.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B6" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutX="198.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B7" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutX="198.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B8" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutX="198.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B9" arcHeight="5.0" arcWidth="5.0" fill="#b72cd7" height="50.0" layoutX="198.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Rectangle fx:id="B10" arcHeight="5.0" arcWidth="5.0" fill="#d78cce" height="50.0" layoutX="198.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+            <Text layoutX="82.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A10">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A1">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A2">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A3">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A4">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A5">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A6">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A7">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A8">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="81.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A9">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font></Text>
+            <Text layoutX="280.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B1">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B2">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B3">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B4">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B5">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B6">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B7">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B8">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B9">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="280.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B10">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Label fx:id="itemQuantity" layoutX="564.0" layoutY="334.0" prefHeight="50.0" prefWidth="255.0" textAlignment="CENTER" textFill="#ab15e1">
+         <font>
+            <Font name="Comic Sans MS" size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="showLocationButton" layoutX="564.0" layoutY="114.0" mnemonicParsing="false" onAction="#showLoc" prefHeight="100.0" prefWidth="255.0" style="-fx-background-color: orange;" text="SHOW LOCATION">
+         <font>
+            <Font name="SimSun" size="29.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Text layoutX="56.0" layoutY="58.0" opacity="0.73" strokeType="OUTSIDE" strokeWidth="0.0" text="View on Map" textAlignment="CENTER" wrappingWidth="763.63671875">
+         <font>
+            <Font name="Impact" size="39.0" />
+         </font>
+      </Text>
+      <Button fx:id="backButton" layoutX="81.0" layoutY="37.0" mnemonicParsing="false" onAction="#switchToBackScreen" prefHeight="23.0" prefWidth="80.0" style="-fx-background-color: orange;" text="&lt; BACK">
+         <font>
+            <Font name="SimSun" size="12.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ToggleButton fx:id="modeButton" layoutX="736.0" layoutY="12.0" mnemonicParsing="false" onAction="#changeMode" prefHeight="73.0" prefWidth="103.0" style="-fx-background-color: transparent;" text="☀">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </ToggleButton>
+   </children>
+</AnchorPane>
